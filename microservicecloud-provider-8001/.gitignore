@@ -1,4 +1,17 @@
-/target/
-/.settings/
-/.classpath
-/.project
+target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+.mvn
+mvnw*
