@@ -12,7 +12,8 @@ import java.util.List;
 
 @RestController
 public class DeptController_Consumer {
-    private static final String url_prefix="http://localhost:8001";
+//    private static final String url_prefix="http://localhost:8001";
+    private static final String url_prefix="http://microservicecloud-dept";
     @Autowired
     RestTemplate restTemplate;
 
