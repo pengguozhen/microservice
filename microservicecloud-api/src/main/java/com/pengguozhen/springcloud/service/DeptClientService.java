@@ -11,7 +11,7 @@ import java.util.List;
 @FeignClient(value = "microservicecloud-dept")
 public interface DeptClientService {
     @RequestMapping(value = "/dept/{id}", method = RequestMethod.GET)
-    public Dept get(@PathVariable long id);
+    public Dept get(@PathVariable("id") long id);
 
 
     @RequestMapping(value = "/dept/list", method = RequestMethod.GET)
