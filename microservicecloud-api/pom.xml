@@ -17,5 +17,10 @@
   		<groupId>org.projectlombok</groupId>
 		<artifactId>lombok</artifactId>
   	</dependency>
+      <!--添加对 feign 的支持-->
+      <dependency>
+          <groupId>org.springframework.cloud</groupId>
+          <artifactId>spring-cloud-starter-feign</artifactId>
+      </dependency>
   </dependencies>
 </project>
